@@ -1,0 +1,47 @@
+.mire-left h2 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.mire-left p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.spans {
+    margin-top: 0;
+}
+
+.interested {
+    margin-top: 4rem;
+}
+
+.interested h1 {
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .mire-left {
+        width: 100%;
+    }
+
+    .mire-left .home-main-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 497px) {
+
+    .mire-left p {
+        font-size: 1rem;
+    }    
+    
+}

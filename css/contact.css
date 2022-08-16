@@ -1,0 +1,152 @@
+.info-contact {
+    margin-top: 60px;
+}
+
+.info-contact .container h1 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.info-contact-main {
+    display: flex;
+}
+
+.info-contact-left {
+    width: 70%;
+    margin-right: 35px;
+}
+
+.row {
+    display: flex;
+}
+
+input[type=text], input[type=number] {
+  width: 50%;
+  padding: 12px;
+  border: 2px solid rgba(40,81,147,0.3);
+  border-radius: 10px;
+  color: #8B7575;
+  resize: vertical;
+}
+
+input[type=text], input[type=number], input[type=email], textarea:focus {
+    outline: 0;
+}
+
+input[type=text] {
+    margin-right: 20px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgba(40,81,147,0.3);
+    border-radius: 10px;
+    resize: vertical;
+    color: #8B7575;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+    resize: none;
+    min-height: 210px;
+    border: 2px solid rgba(40,81,147,0.3);
+    padding: 15px;
+    outline: none;
+    color: #8B7575;
+    margin-top: 10px;
+}
+
+.input-center {
+    text-align: center
+}
+
+input[type=submit] {
+    padding: 17px 30px;
+    background: #7297EF;
+    border-radius: 10px;
+    margin-top: 37px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+input[type=submit]:active {
+    opacity: 0.6;
+}
+
+.contact-item {
+    list-style: none;
+}
+
+.contact-item h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contact-item p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 7px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #D2D2D2;
+    margin-bottom: 20px;
+}
+
+.contact-item:last-child p {
+    padding-bottom: 0px;
+    border-bottom: 0;
+    margin-bottom: 0px;
+
+}
+
+
+.info-contact-right {
+    padding: 40px 25px;
+    background: #E5E5E5;
+    border-radius: 15px;
+    width: 40%;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .info-contact-main {
+        flex-direction: column-reverse;
+    }
+
+    .info-contact-left, .info-contact-right {
+        width: 100%;
+    }
+
+    .info-contact-left {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 497px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    input[type=text], input[type=number] {
+        width: 100%;
+      }    
+    
+      input[type=number] {
+        margin-top: 10px;
+      }
+}
