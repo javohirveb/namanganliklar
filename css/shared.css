@@ -255,6 +255,11 @@ footer {
     margin-right: 10px;
 }
 
+.bottom-footer ul li img {
+    width: 25px;
+    height: 25px;
+}
+
 .bottom-footer ul li:hover {
     opacity: 0.8;
 }
